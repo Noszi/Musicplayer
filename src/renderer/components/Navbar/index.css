@@ -1,0 +1,45 @@
+.navContainer {
+	display: block;
+	position: absolute;
+	height: 35px;
+	width: 100%;
+	color: var(--text2);
+	-webkit-app-region: drag;
+	z-index: 1000;
+}
+
+.navContainer * {
+	display: inline-block;
+}
+
+.navBtn {
+	float: right;
+	height: 100%;
+	width: 40px;
+	-webkit-app-region: no-drag;
+	transition: all .2s ease-in-out;
+}
+
+.navBtn:hover {
+	color: var(--text1);
+}
+
+.navTitle,
+.navBtn svg {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.navBtn svg {
+	font-size: 20px;
+}
+
+.navBtn:nth-child(2) svg {
+	font-size: 15px;
+}
+
+.navBtn {
+	cursor: pointer;
+}

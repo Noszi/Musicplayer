@@ -1,0 +1,40 @@
+* {
+	box-sizing: border-box;
+	position: relative;
+}
+
+:root {
+	--primary: #37cace;
+	--secondary: #24B4B6;
+	--third: #3FB1B3;
+	--text1: white;
+	--text2: black;
+	--text3: #FF0D0D;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+
+body,
+html {
+	font-family: 'Nunito';
+	font-size: 13px;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	background-color: var(--primary);
+	overflow: hidden;
+}
+
+#app {
+	height: 100%;
+	width: 100%;
+}
+
+.center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+}

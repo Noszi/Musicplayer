@@ -1,0 +1,95 @@
+.playerContainer {
+	height: 80px;
+	width: 100%;
+	position: absolute;
+	display: flex;
+	bottom: 0;
+	background-color: var(--third);
+}
+
+.playerContainer * {
+	display: inline-block;
+}
+
+.playerData img {
+	height: 60px;
+	width: 80px;
+	margin: 10px;
+}
+
+.dataContainer {
+	width: 200px;
+	height: 100%;
+}
+
+.dataTitle,
+.dataAuthor {
+	display: block;
+}
+
+.dataTitle {
+	color: var(--text1);
+	font-weight: 500;
+	font-size: 17px;
+}
+
+.dataAuthor {
+	color: var(--text2);
+	font-weight: 700;
+	font-size: 14px;
+}
+
+.playerPanel {
+	display: flex;
+	flex: 1;
+}
+.panel {
+	display: flex;
+	margin: 0 auto;
+}
+
+.playerBtn {
+	width: 30px;
+	color: var(--text1);
+}
+
+.playerBtn svg {
+	cursor: pointer;
+}
+
+.playerBtn:first-child,
+.playerBtn:last-child {
+	color: var(--text2);
+}
+
+.circle {
+	border: 2px solid var(--text1);
+	height: 50px;
+	width: 50px !important;
+	border-radius: 100%;
+	cursor: pointer;
+}
+
+.playerWave {
+	flex: 2;
+	display: flex;
+}
+
+.waveContainer {
+	flex: 1;
+	display: flex;
+	padding-right: 10px;
+}
+
+#wave {
+	flex: 1;
+	padding-right: 10px;
+}
+
+.time {
+	width: 40px;
+	color: var(--text1);
+}
+.active{
+	color: var(--text3) !important;	
+}
